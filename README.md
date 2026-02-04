@@ -397,6 +397,8 @@ This specification is open for technical review. If you are a senior architect a
 
 ---
 
+"Warning: The numerical structure of 19-21-28-588 is the unique intellectual property of the author. Any implementation reproducing this specific logical grid constitutes a derivative work protected under copyright law."
+
 ### ⚠️ TECHNICAL WARNING
 
 "The NHE constants (19, 21, 28, 588) are **fixed empirical values** derived from a specific linguistic-mathematical matrix. Any unauthorized modification will lead to **irreversible collapse of logic-gate synchronization** and instruction set corruption."
