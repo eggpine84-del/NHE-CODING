@@ -62,7 +62,6 @@ The NHE CODING converter does not "translate"; it performs **"Mathematical Coord
 
 This Logic IP demonstrates how the NHE formula translates directly into hardware routing without complex branch prediction or IF-ELSE overhead.
 
-Verilog
 
 ```Verilog
 // NHE_588_Decoder.v
@@ -378,7 +377,7 @@ _inc_M1        # (Inherit A) Increment and store in M1
     Plaintext
     
     ```
-    INP_hgh             # 1. Check if > 80 (No Output -> Result Latched to F)
+    INP_hgh[80]             # 1. Check if > 80 (No Output -> Result Latched to F)
     F_off_MOTR          # 2. If F is True, Turn Off Motor (Output occurs -> Discharged! Pipeline Closed)
                         # (Note: Writing '_off_MOTR' here would also inherit F and work)
     F_set_ERR           # 3. If F is True, Log Error (Must re-specify 'F' since discharged!)
