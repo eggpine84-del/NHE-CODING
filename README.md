@@ -70,9 +70,9 @@ The NHE CODING converter does not perform 'translation' but **'Mathematical Coor
 
 This Logic IP demonstrates how the NHE formula translates directly into hardware routing without complex branch prediction or IF-ELSE overhead.
 
-Verilog
 
-```
+
+```Verilog
 // NHE_588_Decoder.v
 // Physical Coordinate Mapper (No Instruction Fetch Latency)
 
