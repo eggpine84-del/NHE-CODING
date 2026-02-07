@@ -247,7 +247,7 @@ endmodule
 |**(Hardware)**|**16**|**SCR**|**Pin 16 / DISP**|Graphic output and monitoring display interface|
 ||**17**|**ERR**|**Pin 17 / LOG**|System fault log and serial debugging port output|
 ||**18**|**SND**|**Pin 18 / DAC**|Drives audio signals and high-frequency alarm devices (Piezo)|
-||**19**|**SENS**|**Pin 19 / ADC**|Analog sensor input and ADC data reception (Hangul: 'ㄽ')|
+||**19**|**SENS**|**Pin 19 / ADC**|Analog sensor input and ADC data reception|
 ||**20**|**MOTR**|**Pin 20 / PWM**|Motor drive and actuator precision pulse control|
 ||**21**|**NET**|**Pin 21 / COM**|Network packet TX/RX and high-speed serial communication port|
 ||**22**|**DB**|**Pin 22 / STRG**|Non-volatile storage (Flash/Disk) database access|
